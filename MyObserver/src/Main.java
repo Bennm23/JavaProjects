@@ -5,9 +5,7 @@ import watcher.ModelWatcher;
 public class Main {
 
     static class Model {
-
         ModelWatcher mw = new ModelWatcher();
-
     }
 
     static class Comms implements ModelChangeListener {
