@@ -11,7 +11,7 @@ public class ModelWatcher {
         listeners.add(cl);
     }
 
-    public void triggerAll(ModelChangeEvent evt) {
+    public void notifyEvent(ModelChangeEvent evt) {
         listeners.forEach(cl -> cl.handle(evt));
     }
 }

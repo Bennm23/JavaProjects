@@ -42,10 +42,10 @@ public class Main {
             }
         });
 
-        model.mw.triggerAll(Evt.EVT_PRINT);
+        model.mw.notifyEvent(Evt.EVT_PRINT);
 
         model.mw.addListener(comms);
 
-        model.mw.triggerAll(Evt.EVT_HELLO);
+        model.mw.notifyEvent(Evt.EVT_HELLO);
     }
 }
